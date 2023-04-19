@@ -3,7 +3,7 @@ CREATE DATABASE north
 
 CREATE TABLE customers_data
 (
-	customer_id	int PRIMARY KEY,
+	customer_id varchar(50) PRIMARY KEY,
 	company_name varchar(100),
 	contact_name varchar(100)
 );
